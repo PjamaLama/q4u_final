@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:q4u_final/pages/barcode_scanner.dart';
 import 'package:q4u_final/pages/get_details_stepper.dart';
 import 'package:q4u_final/pages/login_page.dart';
+import 'package:q4u_final/pages/uploadImage.dart';
 import 'package:q4u_final/pages/vehicles_page.dart';
 
 // import 'pages/login_page.dart';
@@ -20,8 +21,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.lightBlue,
       ),
       // home: LoginPage(),
-      home: GetDetailsStepper(),
+      // home: GetDetailsStepper(),
       // home: BarcodeScanner(title: 'Scan License Disk Barcode'),
+      home: UploadImage(),
       // home: VehiclesPage(),
     );
   }

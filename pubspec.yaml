@@ -25,9 +25,10 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.0
   firebase_auth: ^0.18.0+1
-  # firebase_core: ^0.5.0
   flutter_barcode_scanner: ^1.0.1
   google_sign_in: ^4.5.3
+  image_picker: ^0.6.7+17
+  regexpattern: ^1.0.0
 
 dev_dependencies:
   flutter_test:

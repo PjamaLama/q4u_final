@@ -104,7 +104,7 @@ class _GetDetailsStepperState extends State<GetDetailsStepper> {
 
   @override
   Widget build(BuildContext context) {
-    var _onPressed;
+    // var _onPressed;
 
     return Scaffold(
       appBar: AppBar(
